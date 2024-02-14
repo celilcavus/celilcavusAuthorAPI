@@ -15,8 +15,7 @@ public class Authors {
     public String Name;
     public String Surname;
 
-    @OneToMany(fetch = FetchType.LAZY)
-    public List<Books> book;
+
     public int getId() {
         return Id;
     }
